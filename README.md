@@ -1,2 +1,2 @@
-Record for LeeCode problems.
+Record for LeetCode problems.
 
