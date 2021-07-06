@@ -1,6 +1,33 @@
 #include<vector>
 using namespace std;
 
+
+/***
+题目：
+A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
+
+The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
+
+Now consider if some obstacles are added to the grids. How many unique paths would there be?
+
+An obstacle and space is marked as 1 and 0 respectively in the grid.
+
+Constraints:
+
+m == obstacleGrid.length
+n == obstacleGrid[i].length
+1 <= m, n <= 100
+obstacleGrid[i][j] is 0 or 1. 1 represents obstacle
+
+ * ***/
+
+/***
+ * 基本思路： 递归，暴力搜索，加和子单元所有路径
+ * 优化：记录被搜索过的子单元的路径数量（动态规划）
+ * 
+ * **/
+
+
 class Solution {
     int m;
     int n;
