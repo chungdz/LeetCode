@@ -42,7 +42,7 @@ Local names do not start with a '+' character.
  * 
  * 
  * 
- * 基本思路：分割字符串
+ * 基本思路：分割字符串，清洗字符串，重组字符串
  * C++不像python有split和re.sub，要自己写
  * 在处理完字符串后local name和domain name要重新拼接起来并且用@连接
  * 
