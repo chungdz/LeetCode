@@ -55,7 +55,7 @@ Constraints:
  * 用struct start_info来记录
  * 从尾部开始初始化，往前走
  * 转移时分为两种情况，tree type相等和tree type不等
- * 在tree type 不等时，又分为两种情况，next tree的type number = 1，或者next tree的number = 2
+ * 在tree type 不等时，又分为两种情况，next tree的type number = 1，或者next tree的type number = 2
  * 在next tree的number = 2时，又分为tree type为新和不为新
  * 
  * 一共有四种状态需要考虑，每种状态都要把start info的信息填满
