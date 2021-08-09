@@ -45,7 +45,7 @@ Constraints:
  * 
  * 从尾部往前扫描，找到第一个字典序不是最大的字串（也就是第一个i，使得nums[i]小于最大的nums[j], j > i）
  * 
- * 把i + 1到进行排序，找到nums[i]的upper bound，交换位置，就是下一个字典序了
+ * 把i + 1到进行排序(因为是有序数组所以逆转就行了)，找到nums[i]的upper bound，交换位置，就是下一个字典序了
  * 
 */
 
@@ -60,13 +60,13 @@ public:
             else{
                 // sort array that greater than current index
                 vector<int>::iterator array_begin = nums.begin() + cur_index + 1;
-                sort(array_begin, nums.end());
+                reverse(array_begin, nums.end());
                 vector<int>::iterator ub = upper_bound(array_begin, nums.end(), cur_number);
                 iter_swap(nums.begin() + cur_index, ub);
                 return;
             }
         }
-        sort(nums.begin(), nums.end());
+        reverse(nums.begin(), nums.end());
         return;
     }
 };
