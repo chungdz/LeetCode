@@ -72,7 +72,7 @@ public:
                     dight_index += 1;
                 }
                 int repeat_num = stoi(s.substr(sindex, digit_len));
-                // get substrig
+                // get substring
                 sindex = dight_index + 1;
                 int substr_index = sindex;
                 int substr_len = 0;
