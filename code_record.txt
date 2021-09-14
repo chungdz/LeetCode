@@ -12,3 +12,14 @@
     count_complete_tree_nodes   problem 222
     course_schedule_II  problem 210
     crack safe  problem 753
+    decode_string problem 394
+    diameter_of_binary_tree problem 543
+    email_adress    problem 929
+    expressive_words    809
+    F_and_R_String  833
+    Fruit_Into_Baskets  904
+    jump_game   55
+    license_key_formation   482
+    Longest_Increasing_path 329
+    longest_substring_no_repeat 3
+    
