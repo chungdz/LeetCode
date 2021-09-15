@@ -73,24 +73,24 @@
     两数之和    problem 1 no solid solutions
     另一个数的子树  problem 572
     螺旋数组    problem 54 no solid solutions
-    买卖股票的最佳时机 problem 
-    排序找开头和结尾    problem
-    全排列  problem
-    三数之和    problem
-    删除链表倒数第n个节点   problem   
-    盛水最多的容器  problem
-    数字的英文表示  problem
-    数组中的第k个最大元素  problem 
-    数组中的逆序对，可重复  problem
-    数组中的逆序对  problem
-    搜索二维矩阵    problem
-    搜索旋转排序数组    problem
-    无重复最长字串  problem
-    下一个排列  problem
-    验证二叉树  problem
-    验证回文串  problem
-    验证回文串II    problem
-    移除五小括号    problem
-    LRU problem
+    买卖股票的最佳时机 problem 121
+    排序找开头和结尾    problem did not find out
+    全排列  problem 46
+    三数之和    problem 15
+    删除链表倒数第n个节点   problem 剑指offer II 021
+    盛水最多的容器  problem 11
+    数字的英文表示  problem 273
+    数组中的第k个最大元素  problem 215
+    数组中的逆序对，可重复  problem 剑指 Offer 51   有自己写的树状数组
+    数组中的逆序对  problem 简化版本
+    搜索二维矩阵2    problem 240
+    搜索旋转排序数组    problem 33
+    无重复最长字串  problem 3
+    下一个排列  problem 31
+    验证二叉树  problem 98
+    验证回文串  problem 125
+    验证回文串II    problem 680
+    移除无效括号    problem 1249
+    LRU problem 146
     
 
