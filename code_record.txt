@@ -57,6 +57,7 @@
     Generate_Parentheses    problem 22
     Median_of_Two_Sorted_Arr    problem 4
     find_first_and_last problem 34
+    merge_intervals problem 56
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
@@ -69,7 +70,6 @@
     复制含有随机指针的链表  problem 138
     合并两个有序链表    problem 21
     合并两个有序数组    problem 88
-    合并区间    problem 56 no solid solutions
     和为k的子数组   problem 560 no solid solutions
     会议室 II  problem 253
     接雨水  problem 42 no solid solutions
