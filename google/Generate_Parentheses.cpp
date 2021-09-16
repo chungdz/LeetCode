@@ -1,3 +1,7 @@
+#include <string>
+#include <vector>
+using namespace std;
+
 /*
 
 22
@@ -28,9 +32,6 @@ Constraints:
 
 直到左括号数量等于n并且右括号生成完毕
 */
-#include <string>
-#include <vector>
-using namespace std;
 
 class Solution {
     vector<string> result;
