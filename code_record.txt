@@ -4,6 +4,7 @@
     rob_house   problem 198 213 337
     unique_path_II  problem 68
     valid_soduku_36    problem 36
+    code_signal_0915    OA problems 0915
 /google
     3sum    problem 15
     add_two_list    problem 2
@@ -51,6 +52,7 @@
     word_ladder problem 127
     Strobogrammatic Number II   problem 247
     implement_trie.cpp  problem 208 前缀树自己写
+    andriod_unlock_patterns problem 351
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
