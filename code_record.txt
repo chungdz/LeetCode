@@ -54,6 +54,7 @@
     implement_trie.cpp  problem 208 前缀树自己写
     andriod_unlock_patterns problem 351
     Letter_Combinations_Phone    problem 17
+    Generate_Parentheses    problem 22
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
@@ -70,7 +71,6 @@
     和为k的子数组   problem 560 no solid solutions
     会议室 II  problem 253
     接雨水  problem 42 no solid solutions
-    括号生成    problem 22
     两个有序数组的中位数    problem 4 no solid solutions
     两数相加链表    problem 445
     两数之和    problem 1 no solid solutions

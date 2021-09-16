@@ -2,21 +2,31 @@
 
 22
 
- 括号生成
-数字 n 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 有效的 括号组合。
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
  
 
-示例：
+Example 1:
 
-输入：n = 3
-输出：[
-       "((()))",
-       "(()())",
-       "(())()",
-       "()(())",
-       "()()()"
-     ]
+Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
+Example 2:
+
+Input: n = 1
+Output: ["()"]
+ 
+
+Constraints:
+
+1 <= n <= 8
+
+基本思想
+
+只有左括号超过右括号数量时，才能生成右括号
+
+暴力搜索，要么放左，要么放右
+
+直到左括号数量等于n并且右括号生成完毕
 */
 #include <string>
 #include <vector>
