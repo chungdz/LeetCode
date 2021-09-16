@@ -53,13 +53,13 @@
     Strobogrammatic Number II   problem 247
     implement_trie.cpp  problem 208 前缀树自己写
     andriod_unlock_patterns problem 351
+    Letter_Combinations_Phone    problem 17
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
     单词接龙    problem 127 no solid solutions
     单词搜索    problem 79 no solid solutions
     岛屿数量    problem 200
-    电话数字号码结合    problem 17
     二叉树的右视图  problem 199
     二叉树的直径    problem 543
     二叉树的最大路径和  problem 124
