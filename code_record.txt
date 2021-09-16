@@ -56,6 +56,7 @@
     Letter_Combinations_Phone    problem 17
     Generate_Parentheses    problem 22
     Median_of_Two_Sorted_Arr    problem 4
+    find_first_and_last problem 34
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
