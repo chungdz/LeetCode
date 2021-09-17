@@ -62,6 +62,7 @@
     Valid_nagram    problem 242
     Count_Small.cpp problem 315
     Peak_in_Mountain.cpp    problem 852
+    Longest_Palindromic_Substring.cpp   problem 5
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
