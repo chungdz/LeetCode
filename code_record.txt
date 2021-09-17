@@ -61,6 +61,7 @@
     insert_intervals    problem 57
     Valid_nagram    problem 242
     Count_Small.cpp problem 315
+    Peak_in_Mountain.cpp    problem 852
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
