@@ -39,7 +39,7 @@ s consist of only digits and English letters.
 
 基本思想
 
-动态规划
+动态规划，bool dp[i][j]表示子串从i到j是否是回文串
 if(s[i] == s[j])
     dp[i][j] = dp[i + 1][j - 1]
 else
