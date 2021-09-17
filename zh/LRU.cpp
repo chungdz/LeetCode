@@ -29,7 +29,7 @@ cache.get(3);       返回  3
 cache.get(4);       返回  4
 */
 
-#include <map>
+#include <unordered_map>
 using namespace std;
 
 /*
@@ -44,6 +44,9 @@ using namespace std;
  然后在头部放入新元素，在Map中保存key和元素指针
 
  get操作，从Map中拿到元素指针，返回元素的值，并且将元素放入头部
+
+TLE
+
  */
 class Node {
 public:
@@ -112,13 +115,13 @@ public:
 
 class LRUCache {
 
-map<int, Node*>* list_pos;
+unordered_map<int, Node*>* list_pos;
 MyList* value_list;
 int cap;
 
 public:
     LRUCache(int capacity) {
-        list_pos = new map<int, Node*>();
+        list_pos = new unordered_map<int, Node*>();
         value_list = new MyList();
         cap = capacity;
     }
