@@ -60,6 +60,7 @@
     merge_intervals problem 56
     insert_intervals    problem 57
     Valid_nagram    problem 242
+    Count_Small.cpp problem 315
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
@@ -87,7 +88,7 @@
     盛水最多的容器  problem 11
     数字的英文表示  problem 273
     数组中的第k个最大元素  problem 215
-    数组中的逆序对，可重复  problem 剑指 Offer 51   有自己写的树状数组
+    数组中的逆序对，可重复  problem 剑指 Offer 51   有自己写的树状数组BIT
     数组中的逆序对  problem 简化版本
     搜索二维矩阵2    problem 240
     搜索旋转排序数组    problem 33
