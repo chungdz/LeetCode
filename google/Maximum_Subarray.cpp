@@ -49,6 +49,8 @@ if(dp[i] > 0)
 else
     dp[i + 1] = nums[i + 1]
 
+存储可以优化，因为每个dp只用一次
+
 **/
 
 class Solution {
