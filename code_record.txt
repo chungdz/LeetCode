@@ -74,6 +74,7 @@
     Logger_limiter.cpp  probem 359
     Random_set.cpp  problem 380
     Search_system.cpp   problem 642
+    Reverse Integer problem 7
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
