@@ -78,6 +78,7 @@
     Reverse Integer problem 7
     Candy   problem 135
     Isomorphic Strings  problem 205
+    Bulls and Cows  problem 299
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
