@@ -51,6 +51,7 @@
     valid_parenrheses   problem 20
     word_ladder problem 127
     Strobogrammatic Number II   problem 247
+    Strobogrammatic Number  problem 246
     implement_trie.cpp  problem 208 前缀树自己写
     andriod_unlock_patterns problem 351
     Letter_Combinations_Phone    problem 17
