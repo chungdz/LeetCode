@@ -36,6 +36,13 @@ using namespace std;
  * 能解决数组内数字重复的情况，已经通过力扣题
  */
 
+/*
+
+keep in mind bit can not start with 0
+
+so all number for index should add 1 before go into this bit
+
+**/
 class BIT{
     int *bit;
     int n;

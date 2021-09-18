@@ -79,7 +79,8 @@
     Candy   problem 135
     Isomorphic Strings  problem 205
     Bulls and Cows  problem 299
-    RSQ.cpp problem 307 线段树解决RMQ类问题（本题写的是Sum线段树for RSQ）
+    Range_Sum_Query.cpp problem 307 线段树解决RMQ类问题（本题写的是Sum线段树for RSQ）
+    Range_Sum_Query_2D.cpp problem 308 二维BIT解决问题
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
