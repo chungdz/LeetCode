@@ -84,6 +84,7 @@
     My_Calendar_II.cpp  problem 731 pass but do not understand
     Jewels_stones.cpp   problem 771
     LR_Swap.cpp problem 777
+    Guess_word.cpp  problem 843
 /zh
     层序遍历二叉树  problem 102
     除自身外的乘积  problem 238 no solid solutions
