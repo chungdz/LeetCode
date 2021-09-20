@@ -163,3 +163,51 @@ public:
         return minimum;
     }
 };
+/*
+
+unordered map 编译错误
+map 时间花销提升了2倍
+
+**/
+typedef pair<int, int> point;
+
+class Solution {
+    map<point, int> lastx;
+    map<int, vector<int>> board;
+    
+public:
+    int minAreaRect(vector<vector<int>>& points) {
+        for(auto p: points){
+            if(board.find(p[0]) == board.end()){
+                board[p[0]] = vector<int>();
+            }
+            board[p[0]].push_back(p[1]);
+        }
+
+        int minimum = INT32_MAX;
+        // every boarder of x
+        for(auto i = board.begin();i != board.end();++i){
+            int cur_x = i->first;
+            int cur_size = i->second.size();
+            if(cur_size < 2){continue;}
+            sort(i->second.begin(), i->second.end());
+            // every y in this boarder
+            for(int j = 0;j < cur_size - 1;++j){
+                int y1 = i->second[j];
+                for(int k = j + 1;k < cur_size;++k){
+                    int y2 = i->second[k];
+
+                    if(lastx.find(point(y1, y2)) != lastx.end()){
+                        int pre_x = lastx[point(y1, y2)];
+                        int rec = (cur_x - pre_x) * (y2 - y1);
+                        minimum = min(minimum, rec);
+                    }
+                    lastx[point(y1, y2)] = cur_x;
+                }
+            }
+        }
+
+        if(minimum == INT32_MAX){minimum = 0;}
+        return minimum;
+    }
+};
