@@ -1,2 +1,4 @@
 /fb
     atoi.cpp    problem 8
+    unique.cpp  problem 26
+    roman_integer.cpp   problem 13
