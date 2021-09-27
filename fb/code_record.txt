@@ -3,3 +3,4 @@
     unique.cpp  problem 26
     roman_integer.cpp   problem 13
     group_anagrams.py   problem 49
+    add_binary.cpp  problem 67
