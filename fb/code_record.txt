@@ -13,4 +13,5 @@
     move_zeros.cpp  problem 283
     longest_substring_k.cpp problem 340
     Valid_IP_Address.py problem 468
-    subsum_array_k  problem 560
+    subsum_array_k.cpp  problem 560
+    Valid_Palindrome_II.cpp problem 680
