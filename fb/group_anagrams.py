@@ -58,7 +58,7 @@ class Trie:
 
 
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs):
         tr = Trie()
         ch_record = {}
         for cstr in strs:
