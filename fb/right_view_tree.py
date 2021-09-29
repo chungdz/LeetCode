@@ -39,7 +39,7 @@ class TreeNode:
         self.right = right
 
 class Solution:
-    def rightSideView(self, root: 'TreeNode') -> List[int]:
+    def rightSideView(self, root: 'TreeNode'):
         if root is None:
             return None
         res = []
