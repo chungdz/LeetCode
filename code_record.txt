@@ -5,6 +5,7 @@
     unique_path_II  problem 68
     valid_soduku_36    problem 36
     strstr.cpp  problem 28  KMP的实现
+    mycmp.py    python3实现降序和升序的自定义
 /google
     3sum    problem 15
     add_two_list    problem 2
