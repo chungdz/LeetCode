@@ -26,3 +26,4 @@
     shortest_buildings_dis.py   problem 317
     Accounte_merge.cpp  problem 721
     sorted_link.cpp problem 426
+    is_bipartite_graph.py   probem 785
