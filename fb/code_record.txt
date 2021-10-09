@@ -28,3 +28,4 @@
     sorted_link.cpp problem 426
     is_bipartite_graph.py   probem 785
     vertical_val.py problem 314
+    permutations.cpp    problem 46
