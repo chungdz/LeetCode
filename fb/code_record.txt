@@ -34,3 +34,4 @@
     regular_expression_match.py probelm 10
     subsets.py  problem 78
     Divide_Two_Integers.cpp problem 29
+    rotated_array.cpp   problem 33
