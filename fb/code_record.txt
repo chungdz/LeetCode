@@ -37,4 +37,5 @@
     rotated_array.cpp   problem 33
     pow.cpp problem 50
     find_peak.py    problem 162
-    first_bad_version   problem 278
+    first_bad_version.py   problem 278
+    intersect_two_arr.py    problem 349
