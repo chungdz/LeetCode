@@ -48,3 +48,4 @@
     Add_Find_Word.cpp   problem 211
     Expression_Add_Operators.py problem 282
     Anagrams.cpp    problem 438
+    Permutation_in_String.cpp   problem 567
