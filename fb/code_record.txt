@@ -50,3 +50,4 @@ Anagrams.cpp    problem 438
 Permutation_in_String.cpp   problem 567
 verify_alien_dict.py    problem 953
 Interval_List_Intersections.py problem 986
+second_hightest_salary.sql
