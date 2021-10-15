@@ -50,6 +50,7 @@ Anagrams.cpp    problem 438
 Permutation_in_String.cpp   problem 567
 verify_alien_dict.py    problem 953
 Interval_List_Intersections.py problem 986
-second_hightest_salary.sql
-nth_hightest_salary.sql
-Customer_not_order.sql
+second_hightest_salary.sql  problem 176
+nth_hightest_salary.sql problem 177
+Customer_not_order.sql  problem 183
+Acceptance_rate.sql problem 597
