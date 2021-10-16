@@ -55,3 +55,4 @@ nth_hightest_salary.sql problem 177
 Customer_not_order.sql  problem 183
 Acceptance_rate.sql problem 597
 most_friends.sql    problem 602
+high3_in_dep.sql    problem 185
