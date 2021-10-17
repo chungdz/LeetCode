@@ -53,7 +53,7 @@ struct ListNode {
  * 
  * right order
  * 
- * 
+ * 455
  * 
  * 
  * 
@@ -96,7 +96,7 @@ public:
             else{n2 = 0;}
 
             int n3 = n1 + n2 + add_one;
-            if(n1 + n2 > 9){
+            if(n3 > 9){
                 add_one = 1;
                 n3 = n3 - 10;
             }
