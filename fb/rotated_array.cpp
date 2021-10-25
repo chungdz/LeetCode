@@ -59,14 +59,18 @@ public:
             find_k(0, ns - 1, nums);
             vector<int>::iterator kit = nums.begin() + k;
 
-            vector<int>::iterator it = lower_bound(nums.begin(), kit, target);
-            if(it != kit && *it == target){
-                return it - nums.begin();
-            }
-
-            it = lower_bound(kit, nums.end(), target);
-            if(it != nums.end() && *it == target){
-                return it - nums.begin();
+            vector<int>::iterator it;
+            if(target < nums[0]){
+                it = lower_bound(kit, nums.end(), target);
+                if(it != nums.end() && *it == target){
+                    return it - nums.begin();
+                }
+            }  
+            else{
+                it = lower_bound(nums.begin(), kit, target);
+                if(it != kit && *it == target){
+                    return it - nums.begin();
+                }
             }
         }
         else{
