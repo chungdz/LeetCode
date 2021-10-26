@@ -44,7 +44,7 @@ Follow up: Can you come up with an algorithm that runs in O(n log(n)) time compl
 
 */
 
-class Solution {
+class Solution1 {
     map<int, int> sequence; 
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -63,5 +63,45 @@ public:
             max_sub = max(max_sub, cur_len);
         }
         return max_sub;
+    }
+};
+
+/*
+dp[i]表示长度为i + 1的序列的结尾最小数字
+初始化
+cur_len = 0
+dp[0] = nums[0]
+更新
+如果nums[i] > dp[cur_len - 1], dp[cur_len] = nums[i], cur_len += 1
+否则找到二分找到lower bound的位置k，更新dp[k] = nums[i]
+
+更新的意义：
+只更新结尾最靠近nums[i]的子序列dp[k]的长度，使得dp[k + 1]结尾为nums[i]，由于dp[i]必定单调递增，更新k之前的序列没有意义
+不会使得k之前的序列更长于k之后的
+
+必定单调递增的证明
+
+如果dp[j] >= dp[i]，且j < i，那么由于序列i比j长，子序列i必定存在子序列长度等于j，并且结尾的数字小于dp[i]，也就是小于dp[j]，与
+dp记录长度为k的序列的结尾最小数字冲突
+*/
+
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        int ns = nums.size();
+        vector<int> dp(ns, 0);
+        int cur_len = 1;
+        dp[0] = nums[0];
+        for(int i = 1;i < ns;++i){
+            if(nums[i] > dp[cur_len - 1]){
+                dp[cur_len] = nums[i];
+                cur_len += 1;
+            }
+            else{
+                vector<int>::iterator it = lower_bound(dp.begin(), dp.begin() + cur_len, nums[i]);
+                *it = nums[i];
+            }
+        }
+        return cur_len;
     }
 };

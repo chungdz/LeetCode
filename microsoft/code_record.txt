@@ -17,3 +17,4 @@ minimum_rotated.cpp problem 153
 minimum_rotated_II.cpp problem 154
 search_2D.cpp   problem 74
 search_2D_II.cpp    problem 240
+longest_increasing_subsequence.cpp  problem 300
