@@ -1,7 +1,7 @@
 from functools import cmp_to_key
 
 nums = [(3, 20), (4, 10), (3, 40), (5, 10), (3, 80), (3, 40)]
-# 降序
+# 升序
 def mycmp(x, y):
     if x[0] == y [0]:
         if x[1] < y[1]:
@@ -18,7 +18,7 @@ def mycmp(x, y):
     
 nums1 = sorted(nums, key=cmp_to_key(mycmp))
 print(nums1)
-# 外降序内升序
+# 外升序内降序
 def mycmp2(x, y):
     if x[0] == y [0]:
         if x[1] < y[1]:
