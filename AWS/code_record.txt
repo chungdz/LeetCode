@@ -9,3 +9,6 @@ Symetric_tree.cpp   problem 101
 word_ladder_II.cpp  problem 127
 course_schedule.py  problem 207
 cur_trees.py    problem 675
+word_search_I.cpp   problem 79
+word_search_II.cpp problem 212
+two_sum_II.cpp  problem 167
