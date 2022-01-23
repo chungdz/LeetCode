@@ -8,5 +8,5 @@ remove_k.py problem 402
 max_rec.cpp problem 84
 max_rec_II.cpp problem 85
 perfect_square.cpp  problem 279
-add_digits  problem 258
-
+add_digits.py  problem 258
+Nth_Digit.py    problem 400
