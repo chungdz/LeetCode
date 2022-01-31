@@ -14,4 +14,4 @@ hash_url.py problem 535
 rectangle_overlap.py    problem 836
 candy_crash.cpp problem 723
 reverse_linked_list_II.cpp  problem 92
-
+kth_smallest.cpp    problem 230
