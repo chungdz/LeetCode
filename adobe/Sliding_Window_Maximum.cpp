@@ -1,4 +1,5 @@
 #include<vector>
+#include<deque>
 #include<map>
 #include<algorithm>
 using namespace std;
@@ -33,6 +34,11 @@ Output: [1]
 基本思想
 
 map用来做排序
+
+更快的思想：
+dequeue
+
+
 */
 
 class Solution {
@@ -68,4 +74,39 @@ public:
 
         return res;
     }
+};
+
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        vector<int> res;
+        deque<int> windows;
+        int ns = nums.size();
+        for(int i = 0;i < k;++i){
+            add_num(nums, windows, i);
+        }
+        res.push_back(nums[windows[0]]);
+        int s = 0;
+        for(int i = k;i < ns;++i){
+            del_num(windows, s);
+            res.push_back(add_num(nums, windows, i));
+            s += 1;
+        }
+
+        return res;
+    }
+
+    int add_num(vector<int>& nums, deque<int>& w, int idx){
+        while(w.size() > 0 && nums[w.back()] <= nums[idx]){
+            w.pop_back();
+        }
+        w.push_back(idx);
+        return nums[w[0]];
+    }
+
+    void del_num(deque<int>& w, int idx){
+        if(w[0] == idx)
+            w.pop_front();
+    }
+
 };
