@@ -17,3 +17,4 @@ reverse_linked_list_II.cpp  problem 92
 kth_smallest.cpp    problem 230
 flatten_list.cpp    problem 430
 Sliding_Window_Maximum.cpp  problem 239
+text_justification.py   problem 68
