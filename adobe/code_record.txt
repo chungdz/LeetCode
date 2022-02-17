@@ -25,3 +25,4 @@ s_d_nt.py   problem 428
 tasks_scheduler.cpp problem 621
 exclusive_cpu.py    problem 636
 free_interval.py    problem 759
+nearest_gate.py problem 286
