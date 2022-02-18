@@ -26,3 +26,4 @@ tasks_scheduler.cpp problem 621
 exclusive_cpu.py    problem 636
 free_interval.py    problem 759
 nearest_gate.py problem 286
+24_game.py  problem 679
