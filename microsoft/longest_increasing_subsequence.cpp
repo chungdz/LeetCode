@@ -69,7 +69,7 @@ public:
 /*
 dp[i]表示长度为i + 1的序列的结尾最小数字
 初始化
-cur_len = 0
+cur_len = 1
 dp[0] = nums[0]
 更新
 如果nums[i] > dp[cur_len - 1], dp[cur_len] = nums[i], cur_len += 1
