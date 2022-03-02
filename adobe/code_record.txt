@@ -34,3 +34,4 @@ russian_doll.py problem 300
 vacation.py problem 568
 cherry_pickup.py    problem 741
 Snake_Game.py   problemc 353
+counter.py  problem 362
