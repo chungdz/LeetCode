@@ -38,3 +38,4 @@ counter.py  problem 362
 getrandom.py    problem 381
 fraction_decimal.py problem 166
 island_number_II.py problem 305
+solve_equation.py   problem 640
