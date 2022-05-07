@@ -43,3 +43,30 @@ class DisjointSet:
     def prints(self):
         for v, nv in self.nodes.items():
             print(v, nv.parent.v)
+
+class DisjointS:
+    def __init__(self) -> None:
+        self.nodes = {}
+
+    def make_set(self, v):
+        assert(v not in self.nodes)
+        self.nodes[v] = v
+    
+    def find_set(self, v):
+        assert(v in self.nodes)
+        cp = self.nodes[v]
+        if cp == v:
+            return v
+        
+        self.nodes[v] = self.find_set(cp)
+        return self.nodes[v]
+    
+    def union(self, x, y):
+        nx = self.find_set(x)
+        ny = self.find_set(y)
+
+        if nx == ny:
+            return False
+        else:
+            self.nodes[ny] = nx
+        return True
