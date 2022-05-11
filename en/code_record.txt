@@ -5,3 +5,6 @@ unique_path_II  problem 68
 valid_soduku_36    problem 36
 strstr.cpp  problem 28  KMP的实现
 mycmp.py    python3实现降序和升序的自定义
+palindrome_partitioning.cpp    problem 131
+palindrome_partitioning_II.cpp problem 132
+palindrome_partitioning_III.cpp problem 1278
