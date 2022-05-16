@@ -14,3 +14,4 @@ sum_of_two_integers.cpp problem 371
 sort_list.py    problem 148
 flip_region.py  problem 130
 palindrome_partition.py problem 131
+wiggle_sort.py  problem 280
