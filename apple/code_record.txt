@@ -16,3 +16,4 @@ flip_region.py  problem 130
 palindrome_partition.py problem 131
 wiggle_sort.py  problem 280
 wiggle_sort_II.cpp  problem 324
+kth_smallest_in_matrix.py   problem 378
