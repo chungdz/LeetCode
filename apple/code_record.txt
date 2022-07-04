@@ -20,3 +20,4 @@ kth_smallest_in_matrix.py   problem 378
 best_time_for_stock.py  problem 309
 word_break_II.py    problem 140
 buy_stock_twice.py  problem 123
+buy_stock_k.py  problem 188
