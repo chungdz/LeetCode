@@ -9,4 +9,5 @@ hb_tree.cpp problem 108
 count_prime.py  problem 204
 valid_number.py problem 65
 cloest_k_bst.py problem 272
+factor_combinations.py  problem 254
 
