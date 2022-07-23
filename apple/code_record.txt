@@ -23,3 +23,4 @@ buy_stock_twice.py  problem 123
 buy_stock_k.py  problem 188
 buy_stock_cost.py   problem 714
 burst_ballon.py problem 312
+reconstruct_queue.py    problem 406

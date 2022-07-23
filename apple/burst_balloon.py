@@ -34,6 +34,8 @@ n == nums.length
 插入的顺序不同，会导致分属不同，但是每个气球一定会插在nums的位置
 dp[i, j]表示开区间(i, j)中的气球都没被插入过，全插入后最高分
 dp[i, j] = max(dp[i, k] + dp[k, j] + num[i] * num[k] * num[j]), i < k < j 
+
+lru cash 可以不写DP
 '''
 
 class Solution:
