@@ -7,4 +7,5 @@ rotate_array.py problem 48
 palindrome_list.cpp problem 234
 hb_tree.cpp problem 108
 count_prime.py  problem 204
+edit_distance.py    problem 72
 
